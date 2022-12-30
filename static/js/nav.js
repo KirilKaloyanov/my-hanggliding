@@ -1,2 +1,3 @@
 const navBar = document.querySelector('nav');
-navBar.appendChild(document.createElement('div'));
+const logoDiv = document.createElement('div');
+navBar.appendChild(logoDiv);
