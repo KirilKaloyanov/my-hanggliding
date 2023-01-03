@@ -1,7 +1,10 @@
 nav {
     display: flex;
+    justify-content: space-between;
 }
 
 .logo-div {
-    background-color: blue;
+    background-image: url("/img/logo.jpg");
+    height: 130px;
+    width: 130px;
 }

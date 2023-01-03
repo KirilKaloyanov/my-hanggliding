@@ -13,6 +13,10 @@ button {
   margin: 18px;
 }
 
+.slider-container {
+  position: relative;
+}
+
 /* CAROUSEL */
 
 .carousel {
@@ -100,14 +104,15 @@ button {
   .btns-container {
     top: 20vw;
     display: flex;
+    right: 70px;
 }
 
 .btns-phantom {
-    width: 35vw;
+    width: 50%;
     height: 57px;
 }
 
 .btns {
-    width: 65vw;
+    width: 50%;
   }
 }
