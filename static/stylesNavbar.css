@@ -1,10 +1,22 @@
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 10px 0;
 }
 
 .logo-div {
     background-image: url("/img/logo.jpg");
-    height: 130px;
+    background-repeat: no-repeat;
+    height: 65px;
     width: 130px;
+}
+
+.menu {
+    background-image: url("img/hamburger.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
 }
