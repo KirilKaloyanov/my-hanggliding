@@ -9,7 +9,6 @@ socialMediaActions.textContent = 'social';
 
 const menu = document.createElement('div');
 menu.classList = 'menu';
-menu.textContent = 'menu';
 
 navBar.appendChild(socialMediaActions);
 navBar.appendChild(logoDiv);
