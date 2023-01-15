@@ -1,14 +1,15 @@
 nav {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-end;
     margin: 10px 0;
 }
 
 .logo-div {
     background-image: url("/img/logo.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     height: 65px;
-    width: 130px;
 }
 
 .menu {

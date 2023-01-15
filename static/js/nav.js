@@ -8,7 +8,8 @@ socialMediaActions.classList = 'social-media-actions';
 socialMediaActions.textContent = 'social';
 
 const menu = document.createElement('div');
-menu.classList = 'menu';
+menu.textContent = 'Some text over here so it get wider'
+// menu.classList = 'menu';
 
 navBar.appendChild(socialMediaActions);
 navBar.appendChild(logoDiv);
